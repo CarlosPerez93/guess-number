@@ -1,0 +1,7 @@
+.mainApp {
+  display: flex;
+  margin: 200px auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: blanchedalmond;
+}
