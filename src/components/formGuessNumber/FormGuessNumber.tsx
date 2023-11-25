@@ -1,10 +1,10 @@
 import { useState } from "react";
 import { Form, InputNumber } from "antd";
 
+import { FormButton } from "../";
 import { Congratulations, Defeat, MessageBox } from "..";
 
 import styles from "./FormGuessNumber.module.css";
-import { FormButton } from "..";
 
 const { Item, useForm } = Form;
 
