@@ -1,7 +1,36 @@
 .main {
   position: absolute;
-  background: rgba(0, 0, 0, 0.219);
+
   color: blanchedalmond;
   width: 100%;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.main h2 {
+  font-size: 100px;
+  color: #1e9600;
+  background-color: -webkit-linear-gradient(
+    to right,
+    #ff0000,
+    #fff200,
+    #40ff10
+  );
+  background-color: linear-gradient(to right, #ff0000, #fff200, #40ff10);
+  animation: 1s infinite alternate-reverse slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 50px;
+    width: 50%;
+  }
+
+  to {
+    margin-right: 300px;
+    width: 50%;
+  }
 }

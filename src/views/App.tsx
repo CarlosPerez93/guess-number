@@ -1,5 +1,6 @@
+import { FormGuessNumber } from "..";
+
 import styles from "./App.module.css";
-import { FormGuessNumber } from "../components";
 
 export function App() {
   return (

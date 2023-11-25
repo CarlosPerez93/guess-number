@@ -4,7 +4,7 @@ import { Form, InputNumber } from "antd";
 import { Congratulations, Defeat, MessageBox } from "..";
 
 import styles from "./FormGuessNumber.module.css";
-import Buttons from "../buttons/Buttons";
+import { FormButton } from "..";
 
 const { Item, useForm } = Form;
 
@@ -55,7 +55,7 @@ export const FormGuessNumber = () => {
             name="numberGuess"
           />
         </Item>
-        <Buttons
+        <FormButton
           cont={cont}
           attempts={attempts}
           loading={visible}

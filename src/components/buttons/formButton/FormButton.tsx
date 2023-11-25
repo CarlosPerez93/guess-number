@@ -1,16 +1,14 @@
 import { Button } from "antd";
 
-import styles from "./Button.module.css";
+import styles from "../Button.module.css";
 
-export const Buttons = ({
+export const FormButton = ({
   text,
   visible,
   cont,
   attempts,
   disable,
 }: TypeButtons) => {
-  console.log(disable);
-
   return (
     <>
       <Button
@@ -25,4 +23,4 @@ export const Buttons = ({
   );
 };
 
-export default Buttons;
+export default FormButton;
